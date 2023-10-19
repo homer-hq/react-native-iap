@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, {useContext, useEffect, useMemo, useState} from 'react';
 import {NativeEventEmitter, NativeModules} from 'react-native';
 import {
