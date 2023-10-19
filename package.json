@@ -7,7 +7,7 @@
   "types": "index.d.ts",
   "postinstall": "dooboolab-welcome postinstall",
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "npm run build || exit 0",
     "build": "tsc && flowgen index.d.ts -o index.js.flow",
     "flow": "flow",
     "lint": "eslint src --ext .ts,.tsx",
